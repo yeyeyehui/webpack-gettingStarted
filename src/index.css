@@ -1,0 +1,6 @@
+@import "bg.css";
+
+body{
+    color: red;
+    background-image: url(./images/bg.png);
+}
