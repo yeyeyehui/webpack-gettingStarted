@@ -109,7 +109,8 @@ module.exports = {
       extensions: [".js", ".ts", ".jsx", ".tsx"],
     }),
     new webpack.DefinePlugin({
-      'process.env.MY_NODE_ENV': '123'
+      'process.env.MY_NODE_ENV': '123',
+      "AUTHOR":"yehui"
    })
   ],
 };
